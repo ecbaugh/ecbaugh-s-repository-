@@ -3,10 +3,29 @@
 <head>
 <title>Contact Us</title>
 </head>
+<body>
 <h1>The Blinking Wizard Tavern</h1>
 <hr />
 <nav>
   <p> <a href="home.html"> Home</a> <a href="menu.html"> Menu</a> <a href="contact.html"> Contact Us</a></p>
 </nav>
-<hr />
+</hr>
+<form action="submit.html" method="POST">
+  <label for="name">Name:</label>
+<input type="text" id="name" name="name"><br />
+<label for="email">Email:</label>
+<input type="text" id="email" name="email"><br />
+<label for="phone"> Phone:</label>
+<input type="text" id="phone" name="phone"><br />
+<label for="reason">Reason for Inquiry</label>
+  <select id="reason" name="reason">
+    <option value="default" selected>Catering</option>
+    <option value="private">Private Party</option>
+    <option value="feedback">Feedback</otpion>
+      <option value="other">Other</option>
+    </select><br />
+    <label for="addinfo">Additional Information</label>
+    <textarea id="addinfo"
+
+</body>
 </html>
